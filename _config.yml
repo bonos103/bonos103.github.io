@@ -92,3 +92,13 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      share: true
+      author_profile: true
