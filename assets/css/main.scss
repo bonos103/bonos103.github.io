@@ -8,6 +8,12 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+@media (min-width: 80em) {
+  html {
+    font-size: 21px;
+  }
+}
+
 a,
 a:visited {
   color: inherit;
